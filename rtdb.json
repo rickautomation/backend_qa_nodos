@@ -1,0 +1,40 @@
+{
+  "firmware_updates": {
+    "NODO_ATMOSFERA": {
+      "firmware_url": "https://raw.githubusercontent.com/rickautomation/box_automation_nodo_atmosfera/main/nodo_atmosfera_v100.bin",
+      "intervalo_envio_ms": 60000,
+      "latest_firmware_version": "1.0.0"
+    },
+    "NODO_BOMBA": {
+      "firmware_url": "https://raw.githubusercontent.com/rickautomation/box_automation_nodo_bomba/main/nodo_bomba_v100.bin",
+      "intervalo_envio_ms": 30000,
+      "latest_firmware_version": "1.0.0"
+    },
+    "NODO_H2O": {
+      "firmware_url": "https://raw.githubusercontent.com/rickautomation/box_automation_nodo_calidad_agua/main/nodo_h2o_v105.bin",
+      "intervalo_envio_ms": 60000,
+      "latest_firmware_version": "1.0.5"
+    },
+    "NODO_RELAYS": {
+      "firmware_url": "https://raw.githubusercontent.com/rickautomation/box_automation_nodo_relays/main/nodo_relays_v100.bin",
+      "intervalo_envio_ms": 10000,
+      "latest_firmware_version": "1.0.0"
+    },
+    "NODO_SUELO": {
+      "firmware_url": "https://raw.githubusercontent.com/rickautomation/box_automation_nodo_humedad_suelo/main/nodo_suelo_new_v101.bin",
+      "intervalo_envio_ms": 60000,
+      "latest_firmware_version": "1.0.4"
+    }
+  },
+  "remote_config": {
+    "backend_host": "192.168.68.84",
+    "backend_port": 3000,
+    "endpoint_atmosfera": "/sensor-data/atmosfera/batch",
+    "endpoint_calidad_agua": "/sensor-data/agua/batch",
+    "endpoint_humedad_suelo": "/sensor-data/humedad/batch",
+    "endpoint_bomba": "/bomba/status/",
+    "endpoint_relays": "/relays/status/",
+    "flag_activo": true,
+    "intervalo_envio_ms": 60000
+  }
+}
