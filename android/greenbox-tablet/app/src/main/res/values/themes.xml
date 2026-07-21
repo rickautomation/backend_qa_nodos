@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GreenboxTablet" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#22A06B</item>
+        <item name="colorPrimaryVariant">#1B7F54</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">#0B1218</item>
+        <item name="android:navigationBarColor">#0B1218</item>
+        <item name="android:windowBackground">#0B1218</item>
+    </style>
+</resources>

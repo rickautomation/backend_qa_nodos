@@ -1,0 +1,29 @@
+[Unit]
+Description=Backend QA Nodos IoT
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=__USER__
+Group=__USER__
+WorkingDirectory=__APP_DIR__
+Environment=HOST=0.0.0.0
+Environment=PORT=3000
+Environment=LOG_LEVEL=INFO
+ExecStart=__APP_DIR__/.venv/bin/gunicorn \
+    --worker-class gthread \
+    --workers 1 \
+    --threads 8 \
+    --timeout 60 \
+    --keep-alive 2 \
+    --max-requests 400 \
+    --max-requests-jitter 80 \
+    --backlog 256 \
+    --bind 0.0.0.0:3000 \
+    app:app
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

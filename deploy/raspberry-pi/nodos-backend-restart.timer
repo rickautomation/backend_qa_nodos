@@ -1,0 +1,9 @@
+[Unit]
+Description=Reinicio diario del backend nodos (evita fugas de conexiones)
+
+[Timer]
+OnCalendar=*-*-* 04,10,16,22:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

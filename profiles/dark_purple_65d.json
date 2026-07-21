@@ -1,0 +1,113 @@
+{
+  "nombre": "Dark Purple 8",
+  "variedad": "OG Kush × Purple Kush Auto · 60–65 días",
+  "dia_inicio": "2026-07-01",
+  "iluminacion": {
+    "tipo": "LED full spectrum",
+    "notas": "18/6 todo el ciclo"
+  },
+  "nodos": {
+    "atmosfera": "48F6EE231EA4",
+    "suelo": "48F6EE235280",
+    "bomba": "48F6EE231A8C",
+    "relays": "DCB4D99C35F8"
+  },
+  "relays": {
+    "luz": 0,
+    "extractor": 7,
+    "humidificador": 2,
+    "caloventor": 3,
+    "ventilador": 6
+  },
+  "luz": {
+    "horas_on": 18,
+    "inicio": "06:00"
+  },
+  "mq135": {
+    "baseline": 1200,
+    "delta": 300,
+    "auto_baseline": true
+  },
+  "fases": [
+    {
+      "nombre": "germinacion",
+      "dias": [1, 7],
+      "hr_min": 65,
+      "hr_max": 75,
+      "temp_min": 20,
+      "temp_max": 26,
+      "caloventor": true,
+      "suelo_min": 60,
+      "suelo_objetivo": 75,
+      "riego_segundos": 2,
+      "riego_lecturas_estabilizar": 3,
+      "riego_estabilizar_tolerancia_pct": 3,
+      "riego_max_pulsos": 15,
+      "riego_cooldown_horas": 0
+    },
+    {
+      "nombre": "plantula",
+      "dias": [8, 14],
+      "hr_min": 60,
+      "hr_max": 70,
+      "temp_min": 20,
+      "temp_max": 26,
+      "caloventor": true,
+      "suelo_min": 55,
+      "suelo_objetivo": 70,
+      "riego_segundos": 2,
+      "riego_lecturas_estabilizar": 3,
+      "riego_estabilizar_tolerancia_pct": 3,
+      "riego_max_pulsos": 15,
+      "riego_cooldown_horas": 0
+    },
+    {
+      "nombre": "vegetativo",
+      "dias": [15, 28],
+      "hr_min": 50,
+      "hr_max": 65,
+      "temp_min": 22,
+      "temp_max": 28,
+      "caloventor": true,
+      "suelo_min": 45,
+      "suelo_objetivo": 65,
+      "riego_segundos": 2,
+      "riego_lecturas_estabilizar": 3,
+      "riego_estabilizar_tolerancia_pct": 3,
+      "riego_max_pulsos": 15,
+      "riego_cooldown_horas": 0
+    },
+    {
+      "nombre": "floracion",
+      "dias": [29, 50],
+      "hr_min": 45,
+      "hr_max": 55,
+      "temp_min": 20,
+      "temp_max": 26,
+      "caloventor": true,
+      "suelo_min": 40,
+      "suelo_objetivo": 55,
+      "riego_segundos": 2,
+      "riego_lecturas_estabilizar": 3,
+      "riego_estabilizar_tolerancia_pct": 3,
+      "riego_max_pulsos": 15,
+      "riego_cooldown_horas": 0
+    },
+    {
+      "nombre": "floracion_tardia",
+      "dias": [51, 65],
+      "hr_min": 40,
+      "hr_max": 50,
+      "temp_min": 18,
+      "temp_max": 24,
+      "caloventor": true,
+      "suelo_min": 35,
+      "suelo_objetivo": 45,
+      "riego_segundos": 2,
+      "riego_lecturas_estabilizar": 3,
+      "riego_estabilizar_tolerancia_pct": 3,
+      "riego_max_pulsos": 12,
+      "riego_cooldown_horas": 0
+    }
+  ]
+}

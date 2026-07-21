@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Greenbox</string>
+    <string name="settings_title">Conexión al backend</string>
+    <string name="backend_url_hint">http://192.168.68.75:3000/</string>
+    <string name="backend_url_label">URL del panel (Raspberry Pi)</string>
+    <string name="save">Guardar y abrir</string>
+    <string name="reload">Recargar</string>
+    <string name="settings">Ajustes</string>
+    <string name="offline_title">Sin conexión al backend</string>
+    <string name="offline_message">No se pudo cargar el panel. Verificá Wi‑Fi y la IP de la Raspberry Pi.</string>
+    <string name="retry">Reintentar</string>
+    <string name="configure">Configurar URL</string>
+    <string name="keep_screen_on">Pantalla siempre encendida</string>
+    <string name="invalid_url">Ingresá una URL válida (http://IP:3000/)</string>
+</resources>

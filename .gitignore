@@ -1,0 +1,14 @@
+.venv/
+data/
+*.db
+.env
+
+# Android
+android/**/build/
+android/**/.gradle/
+android/**/.idea/
+android/**/local.properties
+android/**/*.iml
+android/**/captures/
+*.apk
+*.aab

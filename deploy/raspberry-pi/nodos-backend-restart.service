@@ -1,0 +1,6 @@
+[Unit]
+Description=Reinicio programado de nodos-backend
+
+[Service]
+Type=oneshot
+ExecStart=/bin/systemctl restart nodos-backend

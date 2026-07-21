@@ -1,0 +1,6 @@
+[Unit]
+Description=Watchdog de salud para nodos-backend
+
+[Service]
+Type=oneshot
+ExecStart=__APP_DIR__/deploy/raspberry-pi/health-watchdog.sh

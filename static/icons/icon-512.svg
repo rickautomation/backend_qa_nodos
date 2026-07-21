@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Greenbox">
+  <rect width="512" height="512" rx="96" fill="#0B1218"/>
+  <path fill="#22A06B" d="M256 96c-56 64-104 120-104 176a104 104 0 1 0 208 0c0-56-48-112-104-176z"/>
+  <rect x="168" y="368" width="176" height="56" rx="16" fill="#8B5E34"/>
+</svg>

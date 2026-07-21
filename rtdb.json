@@ -1,14 +1,14 @@
 {
   "firmware_updates": {
     "NODO_ATMOSFERA": {
-      "firmware_url": "https://raw.githubusercontent.com/rickautomation/box_automation_nodo_atmosfera/main/nodo_atmosfera_v100.bin",
+      "firmware_url": "https://raw.githubusercontent.com/rickautomation/box_automation_nodo_atmosfera/main/nodo_atmosfera_v102.bin",
       "intervalo_envio_ms": 60000,
-      "latest_firmware_version": "1.0.0"
+      "latest_firmware_version": "1.0.2"
     },
     "NODO_BOMBA": {
       "firmware_url": "https://raw.githubusercontent.com/rickautomation/box_automation_nodo_bomba/main/nodo_bomba_v100.bin",
-      "intervalo_envio_ms": 30000,
-      "latest_firmware_version": "1.0.0"
+      "intervalo_envio_ms": 2000,
+      "latest_firmware_version": "1.0.1"
     },
     "NODO_H2O": {
       "firmware_url": "https://raw.githubusercontent.com/rickautomation/box_automation_nodo_calidad_agua/main/nodo_h2o_v105.bin",
@@ -16,9 +16,9 @@
       "latest_firmware_version": "1.0.5"
     },
     "NODO_RELAYS": {
-      "firmware_url": "https://raw.githubusercontent.com/rickautomation/box_automation_nodo_relays/main/nodo_relays_v100.bin",
-      "intervalo_envio_ms": 10000,
-      "latest_firmware_version": "1.0.0"
+      "firmware_url": "https://raw.githubusercontent.com/rickautomation/box_automation_nodo_relays/main/nodo_relays_v110.bin",
+      "intervalo_envio_ms": 3000,
+      "latest_firmware_version": "1.1.0"
     },
     "NODO_SUELO": {
       "firmware_url": "https://raw.githubusercontent.com/rickautomation/box_automation_nodo_humedad_suelo/main/nodo_suelo_new_v101.bin",
@@ -27,12 +27,13 @@
     }
   },
   "remote_config": {
-    "backend_host": "192.168.68.84",
+    "backend_host": "192.168.68.75",
     "backend_port": 3000,
     "endpoint_atmosfera": "/sensor-data/atmosfera/batch",
     "endpoint_calidad_agua": "/sensor-data/agua/batch",
     "endpoint_humedad_suelo": "/sensor-data/humedad/batch",
     "endpoint_bomba": "/bomba/status/",
+    "endpoint_bomba_control": "/bomba/control/",
     "endpoint_relays": "/relays/status/",
     "flag_activo": true,
     "intervalo_envio_ms": 60000
